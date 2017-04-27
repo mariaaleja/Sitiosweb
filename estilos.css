@@ -1,0 +1,403 @@
+@charset "utf-8";
+/* CSS Document */
+
+tr.resaltar {
+    background-color: #F5FFD7;
+    cursor: pointer;
+}
+
+.ui-tabs-vertical { width: 65em; }
+.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 15em; }
+.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 43em;}
+
+.wrapper {
+			position: fixed;
+			top:50%;
+			left:50%;
+		}
+
+body.html {
+    background: url( url(img/cyan4.jpg) ) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+table.cabezera{ 
+	align:left;
+	text-align:left; 
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+	font-size:20px;
+	color:#FFFFFF;
+}
+
+table.centrada { 
+	align:center; 
+	text-align:center; 
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+	font-size:22px;
+	color:#000;
+	vertical-align:middle;
+}
+
+table.mini { 
+	align:center; 
+	text-align:center; 
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:15px;
+	color:#000;
+}
+
+table.mini2 { 
+	align:center; 
+	text-align:left; 
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:13px;
+	color:#000;
+	color: #555555;
+}
+ 
+a.nounderline:link   
+{   
+ text-decoration:none;
+ color:#FFF;
+ text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+
+  
+} 
+
+a.nounderline2:link   
+{   
+ text-decoration:none;
+ color:#FFF;
+ font-family: 'Lato', Arial, sans-serif; 
+} 
+
+A:link {text-decoration:none;color:#000000;} 
+
+
+A:visited {text-decoration:none;color:#000000;} 
+
+
+A:active {text-decoration:none;color:#000000;} 
+
+
+A:hover {text-decoration:underline;color:#000000;} 
+
+input.boton
+{
+	font-size:13px;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:white;
+    background:#638cb5;
+    border:0px;
+    width:100px;
+    height:25px;
+}
+
+
+
+.contact_form h2 {
+    background: none repeat scroll 0 0 #F3F3F3;
+    border-radius: 5px;
+    color: #000;
+    display: block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    width: 433px;
+}
+
+/*--- estilos para los ul y li del formulario ---*/
+.contact_form ul {
+    width:500px;
+    list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.contact_form li{
+	padding:5px; 
+	border-bottom:1px solid #eee;
+	position:relative;
+}
+
+.contact_form label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+
+.contact_form input {
+	height:20px; 
+	width:220px; 
+	padding:5px 8px;|
+}
+
+
+.contact_form textarea {
+	padding:8px; 
+	width:300px;
+}
+.contact_form button {
+	margin-left:90px;
+	font-size:13px;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:white;
+    background:#638cb5;
+    border:0px;
+    width:100px;
+    height:25px;
+}
+
+/*----- estilos visuales de los elementos --------*/
+.contact_form input, .contact_form textarea { 
+	border:1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 10px #eee inset;
+	border-radius:2px;
+	color: #888;
+	font-size: 12px;
+	padding-right:30px;
+	-moz-transition: padding .25s; 
+	-webkit-transition: padding .25s; 
+	-o-transition: padding .25s;
+	transition: padding .25s;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+	background: #fff; 
+	border:1px solid #555; 
+	box-shadow: 0 0 3px #aaa; 
+	padding-right:40px;
+}
+
+/* === Estilos de Validacion === */	
+
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+/* === Estilos de Validacion === */	
+
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+
+.contact_form2 h2 {
+    background: none repeat scroll 0 0 #F3F3F3;
+    border-radius: 5px;
+    color: #000;
+    display: block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    width: 433px;
+}
+
+/*--- estilos para los ul y li del formulario ---*/
+.contact_form2 ul {
+    width:500px;
+    list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.contact_form2 li{
+	padding:5px; 
+	border-bottom:1px solid #eee;
+	position:relative;
+}
+
+.contact_form2 label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: 3px;
+    padding: 3px;
+    width: 120px;
+}
+
+.contact_form2 input {
+	height:20px; 
+	width:220px; 
+	padding:5px 8px;|
+}
+
+
+.contact_form2 textarea {
+	padding:8px; 
+	width:300px;
+}
+.contact_form2 button {
+	margin-left:90px;
+	font-size:13px;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:white;
+    background:#638cb5;
+    border:0px;
+    width:100px;
+    height:25px;
+}
+
+/*----- estilos visuales de los elementos --------*/
+.contact_form2 input, .contact_form textarea { 
+	border:1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 10px #eee inset;
+	border-radius:2px;
+	color: #888;
+	font-size: 12px;
+	padding-right:30px;
+	-moz-transition: padding .25s; 
+	-webkit-transition: padding .25s; 
+	-o-transition: padding .25s;
+	transition: padding .25s;
+}
+.contact_form2 input:focus, .contact_form textarea:focus {
+	background: #fff; 
+	border:1px solid #555; 
+	box-shadow: 0 0 3px #aaa; 
+	padding-right:40px;
+}
+
+/* === Estilos de Validacion === */	
+
+.contact_form2 input:required:valid, .contact_form textarea:required:valid {
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.contact_form2 input:focus:invalid, .contact_form textarea:focus:invalid {
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+/* === Estilos de Validacion === */	
+
+.contact_form2 input:required:valid, .contact_form textarea:required:valid {
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.contact_form2 input:focus:invalid, .contact_form textarea:focus:invalid {
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+
+
+.contact_form3 ul {
+    width:500px;
+    list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.contact_form3 li{
+	padding:5px; 
+	border-bottom:1px solid #eee;
+	position:relative;
+}
+
+.contact_form3 label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+
+.contact_form3 input {
+	height:20px; 
+	width:220px; 
+	padding:5px 8px;|
+}
+
+
+.contact_form3 textarea {
+	padding:8px; 
+	width:300px;
+}
+.contact_form3 button {
+	margin-left:10px;
+	font-size:13px;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:white;
+    background:#638cb5;
+    border:0px;
+    width:50px;
+    height:25px;
+}
+
+/*----- estilos visuales de los elementos --------*/
+.contact_form3 input, .contact_form textarea { 
+	border:1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 10px #eee inset;
+	border-radius:2px;
+	color: #888;
+	font-size: 12px;
+	padding-right:30px;
+	-moz-transition: padding .25s; 
+	-webkit-transition: padding .25s; 
+	-o-transition: padding .25s;
+	transition: padding .25s;
+}
+.contact_form3 input:focus, .contact_form textarea:focus {
+	background: #fff; 
+	border:1px solid #555; 
+	box-shadow: 0 0 3px #aaa; 
+	padding-right:40px;
+}
+
+/* === Estilos de Validacion === */	
+
+.contact_form3 input:required:valid, .contact_form textarea:required:valid {
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.contact_form3 input:focus:invalid, .contact_form textarea:focus:invalid {
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+/* === Estilos de Validacion === */	
+
+.contact_form3 input:required:valid, .contact_form textarea:required:valid {
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.contact_form3 input:focus:invalid, .contact_form textarea:focus:invalid {
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
